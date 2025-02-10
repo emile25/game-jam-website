@@ -1,0 +1,148 @@
+.body{
+    background-color: #173F5F;
+    
+}
+
+
+*{
+  
+    margin: 0px ;
+    padding: 0px ;
+      font-family: "Lato", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+
+
+    
+    nav ul {
+        background-color: beige;
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+
+ 
+        }
+     
+      nav ul li {
+float: right;
+      
+        margin-top: 15px;
+      }
+     
+      nav ul li a {
+        display: block;
+        color: black;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+     
+      nav ul li a:hover {
+        background-color: darkgray;
+      }
+
+
+      .nav h1{
+position: absolute;
+left: 250px;
+margin-top: -60px;
+
+font-weight: 1000;
+font-style: normal;
+      }
+
+.intro img{
+    border-radius: 30px;
+    position: absolute;
+left: 260px;
+margin-top: 25vh;
+background-image: none;
+}
+
+
+.intro h1{
+font-size: 30px;
+color: white;
+position: absolute;
+left: 300px;
+margin-top: 50vh;
+font-weight: 1000;
+font-style: normal;
+}
+.intro h2{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left: 300px;
+    margin-top: 60vh;
+    font-weight: 1000;
+font-style: normal;
+}
+
+.text h1{
+    font-size:20px;
+    position: absolute;
+    left: 150px;
+    margin-top: -115vh;
+}
+
+.text h3{
+    text-align: center;
+    margin-top: 150vh;
+font-size: 25px;
+}
+
+.demo img{
+    border-radius: 30px;
+    margin-top: 10vh;
+    position: absolute;
+    left: 400px;
+}
+
+.download-knop{
+    background-color: blanchedalmond;
+    height: 100px;
+    width: 400px;
+    border-radius: 90px;
+    position: absolute;
+    right: 400px;
+    margin-top: 50vh;
+}
+
+.download-knop h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 15px;
+}
+
+
+.over-ons h1{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 10vh;
+    color: white;
+}
+
+.over-ons h2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5vh;
+    color: white;
+}
+
+.onze-leden{
+    background-color: blanchedalmond;
+    height: 50px;
+    width: 150px;
+    border-radius: 90px;
+    position: absolute;
+    left: 100px;
+    margin-top: 50vh;
+}
+
+.onze-leden h3{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
