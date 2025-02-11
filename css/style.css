@@ -39,7 +39,7 @@ float: right;
       }
      
       nav ul li a:hover {
-        background-color: darkgray;
+        background-color: blanchedalmond;
       }
 
 
@@ -138,11 +138,63 @@ font-size: 25px;
     border-radius: 90px;
     position: absolute;
     left: 100px;
-    margin-top: 50vh;
+    margin-top: 40vh;
 }
 
 .onze-leden h3{
     text-align: center;
     margin-top: 10px;
     font-size: 20px;
+}
+.over-ons h5{
+    font-size: 1px;
+    color: white;
+}
+
+.container-main{
+    position: absolute;
+    left: 350px;
+    margin-top: 50px;
+ }
+ 
+.text h4{
+   position: absolute;
+   left: 400px;
+    margin-top: -20vh;
+font-size: 20px;
+}
+
+
+
+
+
+
+.foto-dylan{ transform: rotate(270deg); object-fit: contain; } 
+
+.kane {
+    object-fit: contain; /* Dit werkt alleen als er een breedte en hoogte is ingesteld */
+}
+
+
+.emile{object-fit: contain;}
+
+.container-foto-software{ 
+    margin-top: 55vh;
+    margin-left:5vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.anouk{ object-fit: contain; } 
+
+.nora{ object-fit: contain; ; } 
+
+.gaby{ object-fit: contain; ; } 
+
+.container-media{ margin-top: 10vh; 
+margin-left: 3vh;
+display: flex;
+align-items: center;
+justify-content: center;
 }
