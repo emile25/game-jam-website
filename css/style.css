@@ -1,167 +1,194 @@
-.body{
+.body {
     background-color: #173F5F;
-    
+
 }
 
 
-*{
-  
-    margin: 0px ;
-    padding: 0px ;
-      font-family: "Lato", sans-serif;
-      font-weight: 700;
-      font-style: normal;
+* {
+
+    margin: 0px;
+    padding: 0px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+ 
+header {
+    display: flex;
+    width: 100vw ;
+    height: 100px;
+    background-color: beige;
     }
 
 
+section {
+    width: 50vw;
+  margin: 0vh 20vw;
+   
+  main{
+    justify-content: center;
+  }
+  }
+  
+.dream-img{
+    margin-top: -13vh;
+}
+
+nav ul {
+    background-color: beige;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+}
+
+nav ul li {
     
-    nav ul {
-        background-color: beige;
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          overflow: hidden;
+    float: right;
 
- 
-        }
-     
-      nav ul li {
-float: right;
-      
-        margin-top: 15px;
-      }
-     
-      nav ul li a {
-        display: block;
-        color: black;
-        padding: 14px 16px;
-        text-decoration: none;
-      }
-     
-      nav ul li a:hover {
-        background-color: blanchedalmond;
-      }
+    margin-top: 25px;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover {
+    background-color: blanchedalmond;
+}
 
 
-      .nav h1{
-position: absolute;
-left: 250px;
-margin-top: -60px;
+.nav h1 {
+    position: absolute;
+    text-align: center;
+    margin-top: -65px;
 
-font-weight: 1000;
-font-style: normal;
-      }
+    font-weight: 1000;
+    font-style: normal;
+}
 
-.intro img{
+
+
+.intro img {
     border-radius: 30px;
     position: absolute;
-left: 260px;
-margin-top: 25vh;
-background-image: none;
+    left: 260px;
+    margin-top: 25vh;
+    background-image: none;
 }
 
 
-.intro h1{
-font-size: 30px;
-color: white;
-position: absolute;
-left: 300px;
-margin-top: 50vh;
-font-weight: 1000;
-font-style: normal;
+.intro h1 {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left: 300px;
+    margin-top: 50vh;
+    font-weight: 1000;
+    font-style: normal;
 }
-.intro h2{
+
+.intro h2 {
     font-size: 30px;
     color: white;
     position: absolute;
     left: 300px;
     margin-top: 60vh;
     font-weight: 1000;
-font-style: normal;
+    font-style: normal;
 }
 
-.text h1{
-    font-size:20px;
+.text h1 {
+    font-size: 20px;
     position: absolute;
     left: 150px;
     margin-top: -115vh;
 }
 
-.text h3{
-    text-align: center;
+.text h3 {
+ text-align: center;
     margin-top: 150vh;
-font-size: 25px;
+    font-size: 25px;
 }
 
-.demo img{
+.demo img {
     border-radius: 30px;
-    margin-top: 10vh;
+    margin-top: -60vh;
     position: absolute;
     left: 400px;
 }
 
-.download-knop{
+.download-knop {
     background-color: blanchedalmond;
     height: 100px;
     width: 400px;
     border-radius: 90px;
     position: absolute;
     right: 400px;
-    margin-top: 50vh;
+    margin-top: -20vh;
 }
 
-.download-knop h1{
+.download-knop h1 {
     text-align: center;
     font-size: 50px;
     margin-top: 15px;
 }
 
 
-.over-ons h1{
+.over-ons h1 {
     font-size: 60px;
     text-align: center;
     margin-top: 10vh;
     color: white;
 }
 
-.over-ons h2{
+.over-ons h2 {
     font-size: 30px;
     text-align: center;
     margin-top: 5vh;
     color: white;
 }
 
-.onze-leden{
+.onze-leden {
     background-color: blanchedalmond;
     height: 50px;
     width: 150px;
     border-radius: 90px;
     position: absolute;
-    left: 100px;
-    margin-top: 40vh;
+    left: 250px;
+    margin-top: 20vh;
 }
 
-.onze-leden h3{
+.onze-leden h3 {
     text-align: center;
     margin-top: 10px;
     font-size: 20px;
 }
-.over-ons h5{
+
+.over-ons h5 {
     font-size: 1px;
     color: white;
 }
 
-.container-main{
+.container-main {
     position: absolute;
     left: 350px;
     margin-top: 50px;
- }
- 
-.text h4{
-   position: absolute;
-   left: 400px;
+}
+
+.text h4 {
+    position: absolute;
+    left: 400px;
     margin-top: -20vh;
-font-size: 20px;
+    font-size: 20px;
 }
 
 
@@ -169,32 +196,82 @@ font-size: 20px;
 
 
 
-.foto-dylan{ transform: rotate(270deg); object-fit: contain; } 
+.foto-dylan {
+    transform: rotate(270deg);
+    object-fit: contain;
+}
 
 .kane {
-    object-fit: contain; /* Dit werkt alleen als er een breedte en hoogte is ingesteld */
+    object-fit: contain;
+    /* Dit werkt alleen als er een breedte en hoogte is ingesteld */
 }
 
 
-.emile{object-fit: contain;}
+.emile {
+    object-fit: contain;
+}
 
-.container-foto-software{ 
-    margin-top: 55vh;
-    margin-left:5vh ;
+.container-foto-software {
+    margin-top: 30vh;
+    margin-left: 5vh;
     display: flex;
     align-items: center;
     justify-content: center;
-} 
+}
 
-.anouk{ object-fit: contain; } 
+.anouk {
+    object-fit: contain;
+}
 
-.nora{ object-fit: contain; ; } 
+.nora {
+    object-fit: contain;
+    ;
+}
 
-.gaby{ object-fit: contain; ; } 
+.gaby {
+    object-fit: contain;
+    ;
+}
 
-.container-media{ margin-top: 10vh; 
-margin-left: 3vh;
-display: flex;
-align-items: center;
-justify-content: center;
+.container-media {
+    margin-top: 10vh;
+    margin-left: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.game-img h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 80vh;
+}
+
+.container-game-img{
+    object-fit: contain; 
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px ;
+}
+
+.game-container{
+    object-fit: contain; 
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px ;
+
+}
+
+
+.game-img h1{
+    font-size: 0px;
+    color: lightgreen;
+    margin-top: px;
 }

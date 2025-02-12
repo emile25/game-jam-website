@@ -17,13 +17,14 @@
   </head>
 
 <body class="body">
- 
-    <header>
-    
+ <header>
+  <div class="dream-img">
+    <img src="img/dream1.png" alt="" height="250px" width="250px">
+  </div>  
 
         <nav class="nav">
             <ul>
-                <img src="img/dream.png" alt="" height="80px" width="px">
+              
                 <h1>Step beyond reality</h1>
                 <li><a class="active" href="overons.html">over ons</a></li>
                 <li><a href="">demo</a></li>
@@ -33,12 +34,54 @@
         </nav>
     </header>
     
-    <main class="demo">
+    <main>
+        <section class="demo">
         <img src="img/poster.png" alt="" height="400px" width="300px">
    
    <div class="container">
         <div class="download-knop"><h1>download</h1></div>
    </div>
+ </section>
+
+
+
+
+
+ <section class="game-img">
+    <h1>Plaatjes van de game</h1>
+
+    <div class="container-game-img">
+        <img src="img/img-grijs.png" alt="" class="clickable-img" width="200px" height="200px">
+        <img src="img/img-kleur.png" alt="" class="clickable-img" width="200px" height="200px">
+    </div>
+
+    <div class="game-container">
+        <img src="img/gameimg1.png" alt="" class="clickable-img" width="200px" height="200px">
+        <img src="img/gameimg2.png" alt="" class="clickable-img" width="200px" height="200px">
+    </div>
+    <h1>text</h1>
+</section>
+
+<style>
+    .clickable-img {
+        transition: transform 0.3s ease-in-out;
+        cursor: pointer;
+    }
+
+    .clickable-img.enlarged {
+        transform: scale(2); /* Vergroot de afbeelding */
+        z-index: 10;
+    }
+</style>
+
+<script>
+    document.querySelectorAll('.clickable-img').forEach(img => {
+        img.addEventListener('click', function() {
+            this.classList.toggle('enlarged'); // Wisselt tussen normaal en vergroot
+        });
+    });
+</script>
+
  
 
 </main>
